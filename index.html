@@ -38,7 +38,7 @@
         }
       },
       mounted() {
-        const backendEndpoint = 'http://localhost:30000/notes_from_b';
+        const backendEndpoint = 'http://<hidden-ip>:30000/notes_from_b';
 
         axios.get(backendEndpoint)
           .then(response => {
